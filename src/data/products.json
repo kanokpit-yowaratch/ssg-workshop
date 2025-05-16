@@ -1,0 +1,72 @@
+[
+	{
+		"id": "1",
+		"name": "Smart Watch Pro",
+		"description": "นาฬิกาอัจฉริยะรุ่นล่าสุด พร้อมฟีเจอร์การติดตามสุขภาพ",
+		"price": 7900,
+		"category": "electronics",
+		"image": "/images/products/smartwatch.jpg",
+		"features": [
+			"วัดอัตราการเต้นของหัวใจ",
+			"ติดตามการออกกำลังกาย",
+			"กันน้ำลึก 50 เมตร",
+			"แบตเตอรี่ใช้งานได้นาน 5 วัน"
+		]
+	},
+	{
+		"id": "2",
+		"name": "Coffee Maker Premium",
+		"description": "เครื่องชงกาแฟอัตโนมัติ สำหรับคอกาแฟตัวจริง",
+		"price": 12500,
+		"category": "home",
+		"image": "/images/products/coffeemaker.jpg",
+		"features": [
+			"ระบบควบคุมอุณหภูมิแม่นยำ",
+			"ตั้งเวลาล่วงหน้าได้",
+			"ความจุ 1.5 ลิตร",
+			"มีฟังก์ชันทำความสะอาดอัตโนมัติ"
+		]
+	},
+	{
+		"id": "3",
+		"name": "Wireless Earbuds",
+		"description": "หูฟังไร้สายคุณภาพเสียงระดับสตูดิโอ",
+		"price": 4500,
+		"category": "electronics",
+		"image": "/images/products/earbuds.jpg",
+		"features": [
+			"เทคโนโลยีตัดเสียงรบกวน",
+			"คุณภาพเสียงระดับ Hi-Fi",
+			"ใช้งานต่อเนื่อง 8 ชั่วโมง",
+			"กันน้ำกันเหงื่อ IPX5"
+		]
+	},
+	{
+		"id": "4",
+		"name": "Ergonomic Office Chair",
+		"description": "เก้าอี้สำนักงานออกแบบตามหลักสรีรศาสตร์ ช่วยลดอาการปวดหลัง",
+		"price": 8900,
+		"category": "furniture",
+		"image": "/images/products/chair.jpg",
+		"features": [
+			"รองรับสรีระหลังอย่างเป็นธรรมชาติ",
+			"ที่พักแขนปรับระดับได้",
+			"ปรับความสูงด้วยระบบไฮดรอลิก",
+			"วัสดุระบายอากาศดี"
+		]
+	},
+	{
+		"id": "5",
+		"name": "Portable Power Bank",
+		"description": "แบตเตอรี่สำรองความจุสูง ชาร์จเร็วด้วยเทคโนโลยีล่าสุด",
+		"price": 1990,
+		"category": "electronics",
+		"image": "/images/products/powerbank.jpg",
+		"features": [
+			"ความจุ 20,000 mAh",
+			"ชาร์จเร็วด้วย Quick Charge 4.0",
+			"พอร์ต USB-C และ USB-A",
+			"น้ำหนักเบาพกพาสะดวก"
+		]
+	}
+]
