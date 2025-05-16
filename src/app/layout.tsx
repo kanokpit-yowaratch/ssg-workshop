@@ -6,7 +6,7 @@ import Navigation from '@/components/Navigation';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'NextShop - ร้านค้าออนไลน์',
+  title: 'SSG - NextShop',
   description: 'ตัวอย่าง Next.js 15 SSG Workshop กับ TypeScript และข้อมูล JSON',
 };
 

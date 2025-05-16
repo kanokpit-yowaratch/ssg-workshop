@@ -7,7 +7,7 @@ export default function Home() {
 
   return (
     <main className="container mx-auto px-4 py-8">
-      <h1 className="text-4xl font-bold mb-8">ยินดีต้อนรับสู่ NextShop</h1>
+      <h1 className="text-4xl font-bold mb-8">SSG - NextShop</h1>
 
       <div className="mb-12">
         <h2 className="text-2xl font-semibold mb-4">สินค้าแนะนำ</h2>
