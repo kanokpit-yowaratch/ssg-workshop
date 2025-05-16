@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { Product } from '@/types';
+import NextImage from 'next/image';
 
 interface ProductCardProps {
   product: Product;
@@ -8,8 +9,15 @@ interface ProductCardProps {
 export default function ProductCard({ product }: ProductCardProps) {
   return (
     <div className="border rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow">
-      <div className="h-48 bg-gray-200 flex items-center justify-center">
-        <span className="text-gray-500">[รูปภาพสินค้า: {product.name}]</span>
+      <div className="relative h-48 bg-gray-200 flex items-center justify-center">
+        <NextImage
+          src={product.image}
+          fill={true}
+          objectFit="cover"
+          priority={true}
+          alt="Product cover"
+          className="w-full h-auto"
+        />
       </div>
       <div className="p-4">
         <h3 className="font-semibold text-lg">{product.name}</h3>

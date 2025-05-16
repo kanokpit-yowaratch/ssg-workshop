@@ -30,7 +30,6 @@ export default async function ProductPage({ params }: Readonly<IdProps>) {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div className="relative bg-gray-200 aspect-square flex items-center justify-center rounded-lg">
-          {/* <span className="text-gray-500">[รูปภาพสินค้า: {product.name}]</span> */}
           <NextImage
             src={product.image}
             fill={true}
